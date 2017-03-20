@@ -14,6 +14,7 @@ public class Application {
   }
 
   IStreamDecoratorController getStreamDecoratorController() {
-    return null;
+
+    return null; //new StreamDecoratorController();
   }
 }
